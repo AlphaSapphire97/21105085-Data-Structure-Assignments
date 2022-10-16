@@ -30,3 +30,5 @@ int unknown_size_binary_search(int arr[],int val){
     //Now calling Simple Binary Search on range s to l.
     return binary_search(arr,s,l,val);
 }
+   //ADITYA KANSAL
+   //21105085
