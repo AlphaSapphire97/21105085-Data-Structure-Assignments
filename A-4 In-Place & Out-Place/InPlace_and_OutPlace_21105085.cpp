@@ -1,13 +1,10 @@
 
 /*                         
 A-1]
-The space complexity of a "In-Place" sorting algorithm ranges 
-between O(1) and O(logn), both included.
-An in-place algorithm, as the name implies, is one that 
-transforms the input "in-place" and generates the output 
+The space complexity of a "In-Place" sorting algorithm ranges between O(1) and O(logn), both included.
+An in-place algorithm, as the name implies, is one that transforms the input "in-place" and generates the output 
 in the same memory that stores the data.
-A "Out-Place" sorting algorithm, on the other hand, has 
-a space complexity larger than O. (logn). */
+A "Out-Place" sorting algorithm, on the other hand, has a space complexity larger than O. (logn). */
 
 //A-2]
 
@@ -103,21 +100,15 @@ int main(){
 
 /*
 A-3]
-Though applying in-place techniques in an algorithm is challenging,
-applying out-of-place techniques is simple, but does raise the 
-space complexity of the algorithm.
-If we want to reverse an array, for example, the in-place algorithm
-will swap the first and last elements until we reach the middle 
-of the array. If we want to solve the same problem using the 
-out-place algorithm, however, we must create an additional array 
-of the same size and copy the elements of the original array from 
-the back to the front of the new array. This algorithm increases 
-the space complexity to O(n) because we have created an additional
-array.
-Bubble sort, Selection sort, Insertion sort, and Heapsort all use 
-the IN-PLACE algorithm.
-NOT IN-PLACE algorithm is used in Merge Sort, Because merge sort 
-requires O(n) extra space.
+Though applying in-place techniques in an algorithm is challenging, applying out-of-place techniques is simple,
+but does raise the space complexity of the algorithm.
+If we want to reverse an array, for example, the in-place algorithm will swap the first and last elements until
+we reach the middle of the array. 
+If we want to solve the same problem using the out-place algorithm, however, we must create an additional array 
+of the same size and copy the elements of the original array from the back to the front of the new array. 
+This algorithm increases the space complexity to O(n) because we have created an additional array.
+Bubble sort, Selection sort, Insertion sort, and Heapsort all use the IN-PLACE algorithm.
+NOT IN-PLACE algorithm is used in Merge Sort, Because merge sort requires O(n) extra space.
 */
 //                       Aditya Kansal
 //                       21105085
